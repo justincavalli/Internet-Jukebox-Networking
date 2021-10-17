@@ -4,8 +4,6 @@ import java.io.File;
 
 /**
  * A utility class for our Jukebox.
- *
- * DO NOT MODIFY THIS FILE!
  */
 public class AudioUtil {
 	public static File getSoundFile(String fileName) {

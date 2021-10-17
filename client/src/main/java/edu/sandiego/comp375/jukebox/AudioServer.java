@@ -8,12 +8,7 @@ import java.net.*;
  * It listens on port 6666 and occasionally throws in a 40ms delay between
  * sends (just to make sure the client can handle the occasional network
  * hiccup.
- * You'll need to specify the file you want to stream on the command line.
- *
- * @note This is just to test your initial client. Your real server should be
- * written in C (see the server/ directory).
- *
- * DO NOT MODIFY THIS FILE!
+ * The file to be streamed is specified on the command line.
  */
 public class AudioServer {
 	public static void main(String[] args) throws IOException {
